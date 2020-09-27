@@ -41,7 +41,7 @@ function App() {
             value: country.countryInfo.iso2,
           }));
 
-          const sortedData = sortData(data);
+          let sortedData = sortData(data);
           setTableData(sortedData);
           setMapCountries(data);
           setCountries(countries);
